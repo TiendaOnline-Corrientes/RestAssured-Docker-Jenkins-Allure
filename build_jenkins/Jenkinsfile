@@ -1,0 +1,18 @@
+pipeline{
+
+    stages{
+        stage('build the project'){
+            steps{
+            // here we pass folder where is the pom
+            dir('Projects'){
+               sh 'mvn clean compile'
+                }
+
+            }
+        stage('run test'){
+            sh 'mvn test'
+            }
+        }
+
+}
+}

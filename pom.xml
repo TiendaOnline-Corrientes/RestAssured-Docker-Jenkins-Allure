@@ -60,7 +60,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>C:\Users\marki\Desktop\Projects\src\test\suites\testng.xml</suiteXmlFile>
+                            <suiteXmlFile>src/test/suites/testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
